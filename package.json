@@ -1,0 +1,29 @@
+{
+  "name": "ta-task-1",
+  "version": "1.0.0",
+  "description": "Order list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv304c2/order-list-task1.git"
+  },
+  "keywords": [
+    "order",
+    "list",
+    "api"
+  ],
+  "author": "Dhruv Pant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv304c2/order-list-task1/issues"
+  },
+  "homepage": "https://github.com/dhruv304c2/order-list-task1#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0"
+  }
+}
