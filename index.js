@@ -17,4 +17,8 @@ app.get('/', async (req, res) => {
     console.log(products);
 });
 
-app.listen(500);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
